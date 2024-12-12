@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: rgb(239, 235, 235);
+  font-family: "Courier New", Courier, monospace;
+  text-decoration: none;
+}
+.mainPage {
+  height: 100vh;
+  width: 100%;
+}
+.dark{
+  background-color: black;
+}
+.light{
+  background-color: white;
+}
+.nav {
+  height: 100px;
+  border-bottom: 0.3px solid rgb(100, 97, 97);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 50px;
+  padding: 0 50px;
+  font-size: 1.1rem;
+  font-weight: 900;
+  background-color: black;
+}
+.arcane:hover {
+  color: aquamarine;
+  cursor: pointer;
+}
+.navItems:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.search {
+  height: 100%;
+  width: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1px;
+}
+.searchBtn {
+  height: 50%;
+  width: 20%;
+  color: black;
+  font-size: 1.3rem;
+  font-weight: 900;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: none;
+  background-color: rgb(164, 162, 162);
+}
+.searchInput {
+  height: 50%;
+  width: 60%;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: none;
+  color: black;
+  font-size: 1.3rem;
+  outline: none;
+  padding-left: 8px;
+  background-color: rgb(199, 196, 196);
+}
+.searchBtn:hover {
+  cursor: pointer;
+  background-color: rgb(191, 190, 190);
+  transition: 0.2s;
+}
+form {
+  height: 100%;
+}
+.joining {
+  height: 100%;
+  width: 470px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+}
+.logSign {
+  font-size: 1.4rem;
+  height: 50%;
+  width: 130px;
+  color: black;
+  border: none;
+  border-radius: 6px;
+}
+.logSign:hover {
+  cursor: pointer;
+}
+.login {
+  background-color: green;
+}
+.signUp {
+  background-color: red;
+}
+.login:hover {
+  background-color: rgb(6, 149, 6);
+}
+.signUp:hover {
+  background-color: rgb(226, 53, 53);
+}
+.black {
+  color: black;
+  padding: 50px;
+  font-size: 2rem;
+}
+event.preventDefault();
+.homePage {
+  height: calc(100vh - 100px);
+  width: 100%;
+}
+.some {
+  font-size: 1.2rem;
+  position: absolute;
+  top: 36vh;
+  left: 28.7vw;
+  color: rgb(107, 8, 8);
+  font-weight: 900;
+}
+.home {
+  font-size: 22rem;
+  position: absolute;
+  left: 50%;
+  top: 57%;
+  font-weight: 900;
+  color: red;
+  transform: translate(-50%, -50%);
+}
+.home::before {
+  content: "HOME";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  color: black;
+  -webkit-text-stroke: 5px white;
+  z-index: -1;
+  top: -10px;
+  left: -10px;
+}
+.modalPage{
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0,0,0,.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal{
+  min-height: 20vh;
+  min-width: 20vw;
+  background-color: white;
+  padding: 5vh;
+  border-radius: 5px;
+}
+.hide{
+  display: none;
+}
+.mode{
+  font-weight: 900;
+  font-size: 1.4rem;
+  height: 50%;
+  width: 100px;
+  color: black;
+  border: none;
+  border-radius: 6px;
+}
+.signModal{
+  color: black;
+}
+.inp{
+  height: 50px;
+  width: 400px;
+  color: black;
+  margin-bottom: 5px;
+}
+.inps{
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+.inpt{
+  font-size: 1.5rem;
+  padding: 0 8px;
+}
+.mt{
+  margin-top: 50px;
+}
+.c{
+  color: black;
+}
+.inps:hover{
+  cursor: pointer;
+}
